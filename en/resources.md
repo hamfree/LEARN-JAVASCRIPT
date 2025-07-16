@@ -3,6 +3,7 @@ pageNumber: V
 chapter: 
 ---
 # Learning Resources
+
 ## Articles for learning JavaScript 
 
 
@@ -50,9 +51,21 @@ chapter:
 4. CodeWithHarry - [Link](https://www.youtube.com/c/CodeWithHarry)
 5. Dave Gray - [Link](https://www.youtube.com/@DaveGrayTeachesCode)
 6. freeCodeCamp - [Link](https://www.youtube.com/c/Freecodecamp)
-7. Hitesh Choudhary - [Link](https://www.youtube.com/@HiteshChoudharydotcom)
-8. JavaScript Mastery - [Link](https://www.youtube.com/@javascriptmastery)
-9. SuperSimpleDev - [Link](https://www.youtube.com/@SuperSimpleDev)
-10. The Net Ninja - [Link](https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg)
-11. thenewboston - [Link](https://www.youtube.com/@thenewboston)
-12. Traversy Media - [Link](https://www.youtube.com/user/TechGuyWeb)
+7. JavaScript Mastery - [Link](https://www.youtube.com/@javascriptmastery)
+8. SuperSimpleDev - [Link](https://www.youtube.com/@SuperSimpleDev)
+9. The Net Ninja - [Link](https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg)
+10. thenewboston - [Link](https://www.youtube.com/@thenewboston)
+11. Traversy Media - [Link](https://www.youtube.com/user/TechGuyWeb)
+
+## Projects to Practice
+
+- [Digital Clock](./beginner-projects/digital-clock.md)
+- [Drum Kits](./beginner-projects/electronic-drum-kit.md)
+- [Image Search App](./beginner-projects/image-search.md)
+- [Month Calendar](./beginner-projects/monthly-calendar.md)
+- [Random Photos](./beginner-projects/random-photos-generator.md)
+- [Rock Paper Scissors Game](./beginner-projects/rock-paper-scissors-game.md)
+- [Stopwatch](./beginner-projects/simple-stopwatch.md)
+- [Tip Calculator](./beginner-projects/tip-calculator.md)
+- [Video Trailer Popup](./beginner-projects/video-trailer-popup.md)
+- [Weather App](./beginner-projects/weather-app.md)

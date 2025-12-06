@@ -44,6 +44,7 @@ o
 x = 3
 y = 5
 ```
+
 Lo mismo ocurre con los lenguajes de programación. En programación, las variables son contenedores de valores que cambian. Las variables pueden contener todo tipo de valores y también los resultados de los cálculos. Las variables tienen un `nombre` y un `valor` separados por un signo igual (=). Sin embargo, es importante tener en cuenta que los diferentes lenguajes de programación tienen sus propias limitaciones y restricciones sobre lo que se puede utilizar como nombres de variables. Esto se debe a que ciertas palabras pueden reservarse para funciones u operaciones específicas dentro del idioma.
 
 Veamos cómo funciona en Javascript. El siguiente código define dos variables, calcula el resultado de sumarlas y define este resultado como un valor de una tercera variable.
@@ -84,6 +85,7 @@ var x = 5;
 const y = 'Prueba';
 let z = true;
 ```
+
 Los tipos de declaración dependen del alcance. A diferencia de la palabra clave `var`, que define una variable global o localmente para una función completa independientemente del alcance del bloque, `let` le permite declarar variables cuyo alcance está limitado al bloque, declaración o expresión en el que se utilizan. Por ejemplo.
 
 ```javascript

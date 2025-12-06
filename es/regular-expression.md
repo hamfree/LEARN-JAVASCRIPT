@@ -12,7 +12,7 @@ description: Una expresión regular, a menudo abreviada como "regex", es una pod
 Una expresión regular es un objeto que puede construirse con el constructor `RegEx` o escribirse como un valor literal encerrando un patrón entre una barra diagonal `(/)`. Las sintaxis para crear una expresión regular se muestran a continuación.
 
 ```javascript
-// usando el cosntructor de expresión regular
+// usando el constructor de expresión regular
 new RegExp(patron[, banderas]);
 
 // usando literales

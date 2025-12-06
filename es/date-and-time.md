@@ -22,7 +22,7 @@ new Date(año,mes,dia,hora)
 new Date(año,mes,dia,hora,minutos)
 new Date(año,mes,dia,hora,minutos,segundos)
 new Date(año,mes,dia,hora,minutos,segundos,ms)
-new Date(milliseconds)
+new Date(milisegundos)
 ```
 
 {% hint style="working" %}
@@ -42,7 +42,7 @@ Los métodos y propiedades admitidos por date se describen a continuación:
 | `getMinutes()`         | Devuelve los minutos (0-59)                                    |
 | `getMonth()`           | Devuelve el mes (0-11)                                         |
 | `getSeconds()`         | Devuelve los segundos (0-59)                                   |
-| `getTime()`            | Devuelve el numeric value of a specified date in milliseconds since midnight Jan 1 1970 |
+| `getTime()`            | Devuelve el valor numerico de una fecha especificad en milisegundos desde la medianoche del 1 de Enero de 1970 |
 | `getTimezoneOffset()`  | Devuelve el desplazamiento de la zona horaria en minutos       |
 | `getUTCDate()`         | Devuelve el dia (1-31) de un mes según la hora universal       |
 | `getUTCDay()`          | Devuelve el dia de la semana (0-6) según la hora universal.    |

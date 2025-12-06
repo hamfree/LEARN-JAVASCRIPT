@@ -1,7 +1,9 @@
 node_modules
+.idea
 .grunt
 .vscode
 _book
 .DS_Store
 yarn.lock
 package-lock.json
+/nbproject/private/

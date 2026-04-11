@@ -84,6 +84,7 @@ var x = 5;
 const y = 'Prueba';
 let z = true;
 ```
+
 Los tipos de declaración dependen del alcance. A diferencia de la palabra clave `var`, que define una variable global o localmente para una función completa independientemente del alcance del bloque, `let` le permite declarar variables cuyo alcance está limitado al bloque, declaración o expresión en el que se utilizan. Por ejemplo.
 
 ```javascript

@@ -27,7 +27,7 @@ const libros = [
 
 ## 💡 Consejos
 
-- Viste los capítulos de [matrices](../arrays/) y [objetos](../objects/) para entender como trabajan los objetos y las matrices.
+- Visite los capítulos de [matrices](../arrays/) y [objetos](../objects/) para entender como trabajan los objetos y las matrices.
 
 {% if output.name == "website" %}
 {% aceeditor compilerTitle="¡Inténtelo!" %}

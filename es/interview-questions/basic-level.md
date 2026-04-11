@@ -182,7 +182,7 @@ Una retrollamada es una función que se ejecutará después de que se ejecute ot
 
 Las funciones que se utilizan como argumento para otra función se denominan funciones de retrollamada. **Ejemplo**:
 
-```javascript
+```js
 function dividirPorLaMitad(sum) {
   console.log(Math.floor(sum / 2));
 }
@@ -215,13 +215,15 @@ En términos generales, el alcance nos permitirá saber en una parte determinada
 
 Hay tres tipos de ámbitos en JS:
 
-- Alcance global
-- Alcance Local o de Función
-- Alcance del bloque
+- [Alcance global](#global)
+- [Alcance Local o de Función](#funcion)
+- [Alcance del bloque](#bloque)
 
-**Alcance global**: Las variables o funciones declaradas en el espacio de nombres global tienen alcance global, lo que significa que se puede acceder a todas las variables y funciones que tienen alcance global desde cualquier lugar dentro del código.
+#### Alcance global {#global}
 
-```javascript
+Las variables o funciones declaradas en el espacio de nombres global tienen alcance global, lo que significa que se puede acceder a todas las variables y funciones que tienen alcance global desde cualquier lugar dentro del código.
+
+```js
 var variableGlobal = "Hola mundo";
 
 function enviaMensaje() {
@@ -233,7 +235,9 @@ function enviaMensaje2() {
 enviaMensaje2(); // Devuelve “Hola mundo
 ```
 
-**Alcance de función**: Cualquier variable o función declarada dentro de una función tiene un `alcance local/de función`, lo que significa que se puede acceder a todas las variables y funciones declaradas dentro de una función desde dentro de la función y no desde fuera de ella.
+#### Alcance de función {#funcion}
+
+Cualquier variable o función declarada dentro de una función tiene un `alcance local/de función`, lo que significa que se puede acceder a todas las variables y funciones declaradas dentro de una función desde dentro de la función y no desde fuera de ella.
 
 ```javascript
 function funcionImpresionante() {
@@ -248,7 +252,9 @@ console.log(a); // Genera un error de referencia ya que a está escrito en el á
 multiplicaPor2(); // Lanza un error de referencia ya que multiplicarBy2 está escrito en el ámbito local
 ```
 
-**Alcance de bloque**: El `alcance de bloque` está relacionado con las variables declaradas usando let y const. Las variables declaradas con var no tienen alcance de bloque. El alcance del bloque nos dice que cualquier variable declarada dentro de un bloque `{ }`, solo se puede acceder a ella dentro de ese bloque y no se puede acceder fuera de él.
+#### Alcance de bloque {#bloque}
+
+El `alcance de bloque` está relacionado con las variables declaradas usando let y const. Las variables declaradas con var no tienen alcance de bloque. El alcance del bloque nos dice que cualquier variable declarada dentro de un bloque `{ }`, solo se puede acceder a ella dentro de ese bloque y no se puede acceder fuera de él.
 
 ```javascript
 {

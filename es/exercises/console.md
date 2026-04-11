@@ -25,7 +25,7 @@ También puedes escribir una ecuación matemática en la `consola` para saber la
 console.log("¿Qué edad tendrá una década después?");
 let edad = 30;
 console.log(edad + 10);
-//devuleve 40 en la consola
+//devuelve 40 en la consola
 ```
 
 ## Booleanos en la consola

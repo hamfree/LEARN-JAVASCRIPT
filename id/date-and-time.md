@@ -25,7 +25,7 @@ new Date(tahun, bulan, hari, jam, menit, detik, ms)
 new Date(milidetik)
 ```
 
-{% hint style="warning" %}
+{% hint style="working" %}
 Bulan dapat ditentukan dari `0` hingga `11`, lebih dari itu akan mengakibatkan overflow ke tahun berikutnya.
 {% endhint %}
 
@@ -81,5 +81,5 @@ ISO |
 | `toString()` | Mengembalikan representasi string dari tanggal yang ditentukan |
 | `toTimeString()` | Mengembalikan bagian _waktu_ dalam format yang mudah dibaca |
 | `toUTCString()` | Mengubah tanggal menjadi string sesuai dengan format universal |
-| `toUTC()` | Mengembalikan milidetik sejak tengah malam 1 Januari 1970 dalam format UTC |
+| `toTemporalInstant()` | Mengembalikan objek Tanggal yang dikonversi ke Temporal.Instant, yang mewakili titik waktu tetap (turun ke nanodetik, dalam UTC). |
 | `valueOf()` | Mengembalikan nilai primitif dari `Date` |

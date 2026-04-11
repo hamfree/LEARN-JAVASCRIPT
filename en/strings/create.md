@@ -8,7 +8,7 @@ Strings can be defined by enclosing the text in single quotes or double quotes:
 
 ```javascript
 // Single quotes can be used
-let str = "Our lovely string";
+let str = 'Our lovely string';
 
 // Double quotes as well
 let otherStr = "Another nice string";
@@ -37,7 +37,7 @@ const message = `Hello, ${name}!`;
 
 Template literals can also contain multiple lines and can include any expression inside the placeholders.
 
-{% hint style="warning" %}
+{% hint style="working" %}
 Strings can not be subtracted, multiplied, or divided.
 {% endhint %}
 

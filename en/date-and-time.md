@@ -24,11 +24,11 @@ new Date(year,month,day,hours,minutes,seconds,ms)
 new Date(milliseconds)
 ```
 
-{% hint style="warning" %}
+{% hint style="working" %}
 Months can be specified from `0` to `11`, more than that will result in an overflow to the next year.
 {% endhint %}
 
-Methods and properties supported by date  are described below:
+Methods and properties supported by date are described below:
 
 | Name                   | Description                                                                                     |
 | ---------------------- | ----------------------------------------------------------------------------------------------- |
@@ -78,6 +78,6 @@ Methods and properties supported by date  are described below:
 | `toString()`           | Returns string representation of the specified date                                             |
 | `toTimeString()`       | Returns the _time_  portion into a human-readable  format                                       |
 | `toUTCString()`        | Converts date into a string according to the universal format                                   |
-| `toUTC()`              | Returns the milliseconds since  midnight Jan 1 1970 in UTC format                               |
-| `valueOf()`            | Returns the primitive value of `Date`                                                           |
+| `toTemporalInstant()`  | Returns a Date object converted to a Temporal.Instant, which represents a fixed point in time (down to nanoseconds, in UTC).                                 |
+| `valueOf()`            | Returns the primitive value of `Date                                                           |
 

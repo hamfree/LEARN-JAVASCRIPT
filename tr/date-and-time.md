@@ -23,7 +23,7 @@ new Date(year,month,day,hours,minutes,seconds,ms)
 new Date(milliseconds)
 ```
 
-{% hint style="warning" %}
+{% hint style="working" %}
 Aylar `0` ile `11` arasında belirtilebilir, daha fazlası bir sonraki yıla akacaktır.
 {% endhint %}
 
@@ -77,5 +77,5 @@ Aylar `0` ile `11` arasında belirtilebilir, daha fazlası bir sonraki yıla aka
 | `toString()`           | Belirtilen tarihi string temsilini döndürür                                                    |
 | `toTimeString()`       | _time_ kısmını insan tarafından okunabilir bir formatta döndürür                               |
 | `toUTCString()`        | Tarihi evrensel formata göre bir dizeye dönüştürür                                             |
-| `toUTC()`              | 1970 Ocak 1'den beri UTC formatında milisaniye cinsinden değeri döndürür                       |
+| `toTemporalInstant()`  | Sabit bir zaman noktasını (UTC'de nanosaniyelere kadar) temsil eden Temporal.Instant'a dönüştürülmüş bir Date nesnesi döndürür.                       |
 | `valueOf()`            | `Date`'nin ilkel değerini döndürür                                                             |

@@ -25,7 +25,7 @@ new Date(year,month,day,hours,minutes,seconds,ms)
 new Date(milliseconds)
 ```
 
-{% hint style="warning" %}
+{% hint style="working" %}
 Les mois sont spécifiés de `0` à `11`, si on excède ces index, on débordera sur l'année suivante.
 {% endhint %}
 
@@ -79,5 +79,5 @@ Les méthodes et les propriétés supportées par `date` sont décrites ci-desso
 | `toString()`           | Renvoie une chaîne de caractères représentant l'objet                                                          |
 | `toTimeString()`       | Renvoie la partie _temps_ de la date dans un format lisible par un humain                                      |
 | `toUTCString()`        | Convertit la date en chaîne selon le format universel                                                          |
-| `toUTC()`              | Renvoie les millisecondes écoulées depuis le 1er janvier 1970 au format UTC                                    |
+| `toTemporalInstant()`  | Renvoie un objet Date converti en Temporal.Instant, qui représente un point fixe dans le temps (jusqu'aux nanosecondes, en UTC).                                    |
 | `valueOf()`            | Renvoie la valeur primitive de l'objet `Date`                                                                  |

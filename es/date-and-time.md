@@ -22,10 +22,10 @@ new Date(año,mes,dia,hora)
 new Date(año,mes,dia,hora,minutos)
 new Date(año,mes,dia,hora,minutos,segundos)
 new Date(año,mes,dia,hora,minutos,segundos,ms)
-new Date(milliseconds)
+new Date(milisegundos)
 ```
 
-{% hint style="warning" %}
+{% hint style="working" %}
 Los meses se pueden especificar de `0` a `11`, más de eso resultará en un desbordamiento al año siguiente.
 {% endhint %}
 
@@ -42,7 +42,7 @@ Los métodos y propiedades admitidos por date se describen a continuación:
 | `getMinutes()`         | Devuelve los minutos (0-59)                                    |
 | `getMonth()`           | Devuelve el mes (0-11)                                         |
 | `getSeconds()`         | Devuelve los segundos (0-59)                                   |
-| `getTime()`            | Devuelve el numeric value of a specified date in milliseconds since midnight Jan 1 1970 |
+| `getTime()`            | Devuelve el valor numerico de una fecha especificad en milisegundos desde la medianoche del 1 de Enero de 1970 |
 | `getTimezoneOffset()`  | Devuelve el desplazamiento de la zona horaria en minutos       |
 | `getUTCDate()`         | Devuelve el dia (1-31) de un mes según la hora universal       |
 | `getUTCDay()`          | Devuelve el dia de la semana (0-6) según la hora universal.    |
@@ -79,5 +79,5 @@ Los métodos y propiedades admitidos por date se describen a continuación:
 | `toString()`           | Devuelve una representación de cadena de la fecha especificada. |
 | `toTimeString()`       | Devuelve la parte _time_ en un formato legible por humanos     |
 | `toUTCString()`        | Convierte la fecha en una cadena según el formato universal.   |
-| `toUTC()`              | Devuelve los milisegundos desde la medianoche del 1 de enero de 1970 en formato UTC |
+| `toTemporalInstant()`  | Devuelve un objeto Date convertido a Temporal.Instant, que representa un punto fijo en el tiempo (hasta nanosegundos, en UTC). |
 | `valueOf()`            | Devuelve el valor primitivo de `Date                           |

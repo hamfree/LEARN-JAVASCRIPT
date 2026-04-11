@@ -29,8 +29,8 @@ Las bibliotecas de animación de JavaScript facilitan la creación de animacione
 Para comenzar a utilizar animaciones en JavaScript, consulte estos tutoriales:
 
 1. **[MDN Web Docs: Usando animaciones CSS](https://developer.mozilla.org/es/docs/Web/CSS/CSS_Animations/Using_CSS_animations)**: Una guía completa sobre animaciones CSS.
-2. **[JavaScript.info: JavaScript Animations](https://javascript.info/js-animation/)**: Una introducción a las animaciones de JavaScript.
-3. **[GreenSock Learning Resources](https://greensock.com/learning/)**: Tutoriales y recursos para aprender GSAP.
+2. **[JavaScript.info: Animaciones de JavaScript](https://javascript.info/js-animation/)**: Una introducción a las animaciones de JavaScript.
+3. **[GreenSock Recursos de Aprendizaje](https://greensock.com/learning/)**: Tutoriales y recursos para aprender GSAP.
 
 ### Marcos de trabajo (Frameworks, en inglés)
 
